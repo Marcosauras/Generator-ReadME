@@ -53,13 +53,13 @@ const questions = [
     ]
     
 function writeReadMEHandler(projectFileName, data){
-    return fs.writeFileSync(path.join(process.cwd(), projectFileName), data);
+    return fs.writeFileSync(path.join(projectFileName), data);
 }
 
 function init() {
     inquirer.prompt(questions).then((responses) => {
       console.log("Creating an Awesome ReadME");
-      writeReadMEHandler("README.md", generateMarkdown({responses}));
+      writeReadMEHandler("README.md", generateMarkdown({...responses}));
       
     });
   }
