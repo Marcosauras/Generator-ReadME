@@ -3,22 +3,20 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Description
-creates a readme
-## Table of Contents
-- [License](#license)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-# Installation
-download my repo
-# Usage
-undefined
-# Contributing
+This will create a readme based off user inputs into the prompts
 
-# Tests
+# Installation
+download the repo into your own computer
+from there run it on VScode
+in the terminal run npm i inquire@8.2.4
+then write node index.js this will run the code which will then
+proceed to ask you questions based off what you would like in your
+README.
+
+![ReadMe Gen](./img/readme-gen.png)
+
+# Contributing
+Marc Hamilton, and the bootCampSpot starting code
 
 # Questions
 - If you have any questions for me please contact me at the locations below.

@@ -59,7 +59,7 @@ function writeReadMEHandler(projectFileName, data){
 function init() {
     inquirer.prompt(questions).then((responses) => {
       console.log("Creating an Awesome ReadME");
-      writeReadMEHandler("README.md", generateMarkdown({...responses}));
+      writeReadMEHandler("./dist/README.md", generateMarkdown({...responses}));
       
     });
   }
